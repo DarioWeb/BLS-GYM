@@ -1,1 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,htm{
+    scroll-behavior: smooth;
+}
 
+header{
+    background-color: transparent;
+    width: 90%;
+    position: absolute;
+    height: 100px;
+}
+nav{
+    float: left;
+    transition: 0.5s;
+}
+.hamburger{
+    float: left;
+    line-height: 100px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    display: none;
+    margin-left: 15px;
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    line-height: 100px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    margin-right: 15px;
+}
+.logo{
+    float: right;
+}
+.logo .logo_txt{
+    line-height: 100px;
+    color: darkred;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.men{
+    background-image: url("../images/dark_men.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.dark{
+    background-color: #000;
+    padding-bottom:230px;
+}
+
+.hello{
+    margin-top: 160px;
+    margin-left: 25px;
+}
+.hello h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    font-family: Ebrima;
+}
+.hello p{
+    color: #999;
+    font-family: monospace;
+}
+.hello a{
+    text-decoration: none;
+    background-color: darkred;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px red;
+    margin-top: 20px;
+}
+.welcome{
+    background-color: #fff;
+    padding: 50px 0 100px 0;
+}
+.bilder{
+    width: 100%;
+}
+.welcome_txt_div{
+    background-color: #111;
+    display: inline-block;
+    transform: rotate(-5deg);
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 20px #111;
+
+}
+.welcome_txt_div p{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-family: monospace;
+}
+.welcome_txt_div h1{
+    text-align: center;
+    color: darkred;
+    font-family: Ebrima;
+    font-weight: bold;
+}
+.gallery{
+    background-color: #111;
+    padding: 50px 0 100px 0;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+.gallery_naslov{
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.contact{
+
+}
+.con-dark{
+    background-color: #000;
+    padding-bottom: 200px;
+
+}
+.c_men{
+    background-image:url("../images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.contact_form{
+    width: 75%;
+    padding-top: 150px;
+    display: block;
+    margin: auto;
+}
+.contact_form input,textarea{
+    display: block;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+}
+.contact_form button{
+    margin-top: 30px;
+    background-color: darkred;
+    padding: 10px 50px 10px 50px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px red;
+}
+.contact_naslov{
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+}
+.contact_naslov span{
+    border-bottom: solid 1px red;
+}
+.costomers{
+    background-image: url("../images/costomers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.line{
+    background-color: #222;
+    padding: 40px 0 40px 0;
+}
+.costomers_overvaly{
+    background-color: rgba(0,0,0,0.3);
+    padding: 150px 0 150px 0;
+}
+
+.swiper2 {
+    width: 90%;
+    height: 90%;
+}
+
+.swiper-slide2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+.costomers_say{
+    max-width: 70%;
+    color: #ffffff;
+}
+.costomers_say span{
+    font-size: 100px;
+}
+.costomers_say h4{
+    font-family: arial;
+    font-weight: bold;
+}
+.costomers_say h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.costomers_say p{
+    font-family: arial;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.costomers_say h3{
+    font-family: Impact;
+    letter-spacing: 1px;
+}
+.line span{
+    color: darkred;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.line h2{
+    color: #fff;
+    font-weight: bold;
+    font-family: monospace;
+}
+.line h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Ebrima;
+}
+footer{
+    background-color: #000;
+    padding: 50px 0 50px 0;
+}
+footer h2{
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+}
+footer span{
+    color: #999;
+}
+.line2{
+    background-color: #fff;
+    padding: 50px 0 50px 0;
+}
+.line2 h1{
+    color: #000;
+    font-family: 'Permanent Marker', cursive;
+}
+.line2 span{
+    font-family: monospace;
+    color: #333;
+    font-weight: bold;
+}
+.scroll_to_top{
+    position: fixed;
+    bottom: 1%;
+    display: none;
+    right: 1%;
+    border-radius: 50%;
+}

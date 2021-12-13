@@ -1,0 +1,101 @@
+/*MENU*/
+.close_menu{
+    display: none;
+}
+@media(max-width: 991px){
+    header nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: 999;
+        width: 0;
+        text-align:-webkit-center;
+        height: 100vh;
+        background-color: #000;
+    }
+    header nav ul li{
+        display: block;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    .close_menu{
+        display: block;
+    }
+    .welcome_txt_div p{
+        font-size: 15px;
+    }
+    .hello h1{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 767px){
+    .dark{
+        background-image: url("../images/dark_men.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .men{
+        display: none;
+    }
+    .hello p,.hello h1{
+        color: #fff;
+        text-shadow: 0 0 20px #000;
+    }
+    .builder{
+        display: none;
+    }
+    .hello{
+        background-color: rgba(0,0,0,0.4);
+        padding: 20px;
+    }
+    .about_col{
+        background-image: url("../images/bilder.png");
+        background-size: cover;
+        background-position-y: top;
+        background-position-x: center;
+        padding: 100px 0 50px 0;
+    }
+    .welcome{
+        background-color: #fff;
+        padding: 0;
+    }
+    .con-dark{
+        padding-bottom: 100px;
+    }
+    .contact_form{
+        padding-top: 75px;
+    }
+    .line{
+        padding-bottom: 65px;
+    }
+    .costomers_say{
+        max-width: 100%;
+    }
+    .costomers_say p{
+        font-size: 15px;
+    }
+}
+@media(max-width: 576px){
+    .welcome_txt_div{
+        max-width: 80%;
+    }
+    .about_col{
+        text-align: -webkit-center;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .hello h1{
+        font-size: 20px;
+    }
+    .hello p{
+        font-size: 15px;
+    }
+
+}
+
