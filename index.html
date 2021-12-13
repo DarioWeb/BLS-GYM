@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BLS | GYM</title>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!--Google fonts start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!--Google fonts end-->
+
+    <!--Swiper slider start-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!--Swiper slider end-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+
+<section class="hero">
+   <div class="container-fluid">
+
+
+       <div class="row">
+           <div class="dark col-md-6">
+               <header>
+                        <h1 class="hamburger" ><i class="fas fa-bars"></i></h1>
+                   <nav>
+                       <ul>
+                           <li><a class="close_menu" >&times;</a></li>
+                           <li><a class="close_menu2" href="index.html">Home</a></li>
+                           <li><a class="close_menu2" href="#about">About Us</a></li>
+                           <li><a class="close_menu2" href="#gallery">Gallery</a></li>
+                           <li><a class="close_menu2" href="#contact">Contact Us</a></li>
+                       </ul>
+                   </nav>
+                   <div class="logo">
+                       <h1 class="logo_txt">BLS</h1>
+                   </div>
+
+               </header>
+               <br>
+
+           <div class="container cont2">
+               <div class="hello">
+                   <h1>
+                      NEVER GIVE UP<br>BEST FITNESS FOR YOU!
+                   </h1>
+                   <p>
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, consectetur cum fugiat illum quibusdam vel.
+                   </p>
+                   <a href="">Contact Us</a>
+               </div>
+           </div>
+
+           </div>
+           <div class="men col-md-6"></div>
+       </div>
+
+   </div>
+</section>
+
+<section id="about" class="welcome">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 builder">
+              <center>
+                  <img class="bilder" src="images/bilder.png" alt="">
+              </center>
+            </div>
+            <div class="col-md-6 about_col">
+                <div class="welcome_txt_div">
+                    <h1>
+                        BLS - GYM
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus accusantium alias aperiam enim est ex facere nesciunt nulla quia quisquam rerum veniam voluptate. Aperiam aut eveniet pariatur quis recusandae?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="gallery">
+<div class="container">
+
+    <h1 class="gallery_naslov">
+        OUR GALLERY
+    </h1>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/slider_1.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slider_2.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slider_4.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slider_5.jpg" />
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 con-dark">
+                <form onsubmit="return validate_form()" action="" method="post" class="contact_form" >
+                    <h1 class="contact_naslov" >CONT<span>ACT US</span></h1>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input id="name" type="text" name="name" placeholder="YOUR NAME" >
+                        </div>
+                        <div class="col-sm-6">
+                            <input id="email" type="email" name="email" placeholder="YOUR EMAIL" >
+                        </div>
+                    </div>
+                    <input id="subject" type="text" name="subject" placeholder="YOUR SUBJECT" >
+                    <textarea id="msg" name="message" id=""  placeholder="YOUR MESSAGE" ></textarea>
+                    <button name="submit" >SEND</button>
+                    <br>
+                    <br>
+                    <p class="error" ></p>
+                </form>
+            </div>
+            <div class="col-md-6 c_men"></div>
+
+        </div>
+    </div>
+</section>
+<div class="line">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                    <span>
+                    <i class="far fa-smile-wink"></i>
+                    </span>
+                    <h2>1510</h2>
+                    <h3>satisfied customers</h3>
+                </center>
+            </div>
+            <div class="col-md-4">
+              <center>
+                    <span>
+                    <i class="fas fa-trophy"></i>
+                    </span>
+                  <h2>2070</h2>
+                  <h3>Awwards Winning</h3>
+              </center>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <span>
+                    <i class="far fa-clock"></i>
+                    </span>
+                    <h2>5678</h2>
+                    <h3>Hours Worked</h3>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="costomers">
+<div class="costomers_overvaly">
+    <div class="container">
+  <center>
+      <div class="swiper2 mySwiper2">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+
+                  <div class="costomers_say">
+                      <h4>OUR PROGRESS</h4>
+                      <h1>What People Say</h1>
+                      <span><i class="far fa-comment-dots"></i></span>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad in molestiae sapiente totam? Asperiores, aspernatur, autem dolores eaque exercitationem inventore minima odit omnis praesentium quam qui repudiandae sed vero. Sequi.
+                      </p>
+                      <h3>Anna Wolker</h3>
+                  </div>
+
+              </div>
+              <div class="swiper-slide">
+                  <div class="costomers_say">
+                      <h4>OUR PROGRESS</h4>
+                      <h1>What People Say</h1>
+                      <span><i class="far fa-comment-dots"></i></span>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad in molestiae sapiente totam? Asperiores, aspernatur, autem dolores eaque exercitationem inventore minima odit omnis praesentium quam qui repudiandae sed vero. Sequi.
+                      </p>
+                      <h3>David Smith</h3>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="costomers_say">
+                      <h4>OUR PROGRESS</h4>
+                      <h1>What People Say</h1>
+                      <span><i class="far fa-comment-dots"></i></span>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad in molestiae sapiente totam? Asperiores, aspernatur, autem dolores eaque exercitationem inventore minima odit omnis praesentium quam qui repudiandae sed vero. Sequi.
+                      </p>
+                      <h3>Nikola Venz</h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </center>
+    </div>
+</div>
+</section>
+<div class="line2">
+    <center>
+        <h1>IT'S YOUR TURN</h1>
+        <span>It's not for losers!</span>
+    </center>
+</div>
+<footer>
+    <center>
+        <h2>
+            BLS - GYM
+        </h2>
+        <span>
+            Copyrights © <span id="year"></span>
+        </span>
+    </center>
+</footer>
+<div class="development">
+    <center>
+        <span>Development By:<a href="">Dario Stankovski</a></span>
+    </center>
+</div>
+
+<button class="btn btn-danger scroll_to_top" ><i class="fas fa-arrow-up"></i></button>
+
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--Swiper Slider js-->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!--Custom js-->
+<script src="js/custom.js"></script>
+</body>
+</html>
